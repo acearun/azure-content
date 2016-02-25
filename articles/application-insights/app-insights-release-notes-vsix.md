@@ -16,35 +16,6 @@
 
 # Release Notes for Application Insights and HockeyApp Tools for Visual Studio v 4.3
 ## Version 4.3
-This release comes with two new features and a handful of minor improvements to existing functionality. You will need Visual Studio 2015 Update 1 to use this version.
-### HockeyApp Beta Distribution
-With this release, you can easily distribute beta versions of your Universal Windows applications from within Visual Studio using [HockeyApp](http://hockeyapp.net/).  
-#### If you have a Universal Windows application
-- Right-click on the Project Node in Solution Explorer -> Upload to HockeyApp...
-
-	![Context Menu](./media/app-insights-release-notes-vsix/UploadToHAContextMenu.png)
-
-- You will need a HockeyApp account to upload your build. Don't worry if you are a new user - creating an account is a simple process.
-- Choose your build (appx, appxbundle, appxupload) and release options in the wizard.
-
-	![Upload Build](./media/app-insights-release-notes-vsix/UploadToHA.png)
-
-- Add optional release notes for your build.
-
-	![Release Notes](./media/app-insights-release-notes-vsix/HAReleaseNotes.png)
-
-- Choose 'Finish' to begin upload.
-- When the upload is complete, you will see a HockeyApp toast with confirmation and a link to the HockeApp portal.
-
-	![Upload complete toast](./media/app-insights-release-notes-vsix/HAUploadComplete.png)
-
-#### Manage distribution from the HockeyApp portal
-The HockeyApp portal allows you to manage your application in various ways (invite users, view feedback, change details, etc.)
-
-![Upload complete](./media/app-insights-release-notes-vsix/HAPortal.png)
-
-Details about app management is available at the [HockeyApp Knowledge Base](http://support.hockeyapp.net/kb/app-management-2).
-
 ### Search telemetry from local debug sessions
 With this release, we are introducing the ability to search for Application Insights telemetry generated in the Visual Studio debug session. Search was previously only possible if you had registered your app with Application Insights. With this release, your app only needs the Application Insights SDK installed to search for local telemetry.
 #### If you have an ASP.NET application with the Application Insights SDK
